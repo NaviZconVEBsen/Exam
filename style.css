@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #014E56;
+    font-family: "Livvic", serif;
+}
+
+header {
+    padding: 77px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+
+.btn {
+    width: 153px;
+    height: 48px;
+    border: none;
+    background-color: inherit;
+    color: white;
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #014E56;
+}
+
+.hero {
+    padding: 120px 0;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    letter-spacing: 0px;
+    color: white;
+}
+
+.hero p {
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.hero2 {
+    padding-top: 71px;
+    padding-bottom: 178px;
+}
+
+.hero2 h2 {
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.ota {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.card {
+    width: 350px;
+    height: 274px;
+    background-color: #012F34;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.img {
+    display: block;
+    margin-top: 44px;
+}
+
+.card h3 {
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #79C8C7;
+    margin-top: 23px;
+}
+
+.card p {
+    font-family: Livvic;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+}
+
+.btn2 {
+    background-color: #F67E7E;
+    width: 56px;
+    height: 56px;
+    top: 237px;
+    left: 147px;
+    border: none;
+    border-radius: 10000px;
+    font-size: 35px;
+    color: #012F34;
+    margin-top: 16px;
+    position: absolute;
+}
+
+.hero3 {
+    padding: 113px 0;
+    background-color: #012F34;
+}
+
+.hero3 h2 {
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+}
+
+.img-ota {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding-top: 52px;
+}
+
+.hero4 {
+    padding: 76px 0;
+    background-color: #F67E7E;
+}
+
+.hero4 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero4 h2 {
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #012F34;
+}
+.btn3{
+    width: 153px;
+    height: 48px;
+    border: none;
+    background-color: inherit;
+    color: #012F34;
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    border: 2px solid #012F34;
+    border-radius: 24px;
+}
+
+footer{
+    padding: 24px 0;
+    background-color: #002529;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.font{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+i{
+    color: white;
+    font-size: 24px;
+}
+.s{
+    display: none;
+    color: white;
+    border: none;
+    background-color: inherit;
+}
+@media(max-width:906px){
+    .hero .container{
+        flex-direction: column;
+    }
+    .img-ota{
+        display: flex;
+        gap: 30px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .ota{
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        width: 281px;
+        height: 281px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .btn2{
+        left: 113px;
+    }
+}
+@media(max-width:520px){
+    nav{
+        display: none;
+    }
+    .s{
+        display: block;
+    }
+    .img-ota{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .hero4{
+        flex-direction: column;
+    }
+    br{
+        display: none;
+    }
+}
